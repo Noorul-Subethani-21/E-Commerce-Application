@@ -1,0 +1,58 @@
+.offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    
+    display: flex;
+    background-image: url('../Assets/background_image1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.offers-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.offers-left h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.offers-left p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+}
+.offers-left button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+.offers-right img{
+    height: 60vh;
+    border-radius: 30px;
+}
+
+/* Add this at the end of your CSS file */
+

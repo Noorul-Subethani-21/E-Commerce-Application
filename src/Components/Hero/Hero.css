@@ -1,0 +1,64 @@
+.hero {
+  height: 90vh;
+  display: flex;
+  background-image: url("../Assets/background_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ...rest of your CSS... */
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 380px;
+  gap: 20px;
+  padding-left: 100px;
+  line-height: 1.1;
+}
+.hero-left h2 {
+  color: #171717;
+  font-size: 26px;
+  font-weight: 600;
+}
+.hero-left p {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-hand-icon img {
+  width: 50px;
+}
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 310px;
+  height: 70px;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: #ff4141;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-right img {
+  height: 70vh;
+  width: 50%;
+  border-radius: 30px;
+}
+/* Add this at the end of your CSS file */
